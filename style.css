@@ -1,0 +1,48 @@
+/* .block-element {
+    display: block;
+    background-color: darkblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.inline-element {
+    display: inline;
+    background-color: darkred;
+    padding: 10px;
+    margin: 5px;
+} */
+
+.container {
+    position: relative;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.static {
+    background-color: lightblue;
+    margin: 20px;
+}
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: lightcoral;
+    margin: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.sticky {
+    position: sticky;
+}

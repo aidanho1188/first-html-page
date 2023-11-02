@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-rows:  150px 150px;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+}
+
+header {
+    /* 1 is width begin, -1 = last  aka whole column*/
+    grid-column: 1/-1;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+main {
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+footer {
+    grid-column: 1/-1;
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+
+}

@@ -1,0 +1,25 @@
+.block {
+    display: block;
+    background-color: blue;
+}
+
+.inline {
+    display: inline;
+    background-color: lightblue;
+}
+
+.main-box {
+    display: block;
+    background-color: brown;
+}
+
+.box1 {
+    display: inline;
+    position: relative;
+    background-color: red;
+}
+
+.box2 {
+    display: inline;
+    background-color: black;
+}
